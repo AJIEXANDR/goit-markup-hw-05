@@ -229,11 +229,16 @@ margin-left: auto;
 
 .close-btn {
   position: absolute;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 8px;
   right: 8px;
-  background-color: inherit;
-  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
